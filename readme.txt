@@ -63,7 +63,7 @@ for instance Microsoft SQL, you will need:
 2. add MSSQL config object with connection parameters to config.js 
    (exports.dbConfig) with 'mssql' key.
 3. add to dbControllers object (controllers/dbctrls.js) pair 
-   'mssql': function()(dbName,sql,callback){}, in function you will need to 
+   'mssql': function(dbName,sql,callback){}, in function you will need to 
    use dbConfig['mssql'] object from config module to connect to MSSQL 
    database and process sql request (in 'sql' parameter), see how it is 
    implemented in 'mysql' function in controllers/dbctrls.js.
