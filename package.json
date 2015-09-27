@@ -1,0 +1,23 @@
+{
+  "name": "SQLBroker",
+  "version": "1.0.0",
+  "description": "SQLBroker accepts",
+  "main": "app.js",
+  "dependencies": {
+    "mysql": "^2.9.0",
+    "sqlite3": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "node",
+    "sql",
+    "broker",
+    "database",
+    "mysql"
+  ],
+  "author": "Sergey Chekriy, sergey.chekriy@me.com",
+  "license": "MIT"
+}
